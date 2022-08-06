@@ -11,7 +11,7 @@ import lombok.Data;
 @Data
 @RedisHash("person")		// 이 값이 redis key의 prefix 로 사용됨. ex) key = person:<id> 조합
 public class Person {
-	
+//	유지시간 설정
 	public enum Gender {
 		MALE, FEMALE
 	}
